@@ -8907,7 +8907,6 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 129.54 72.39 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8917,7 +8916,7 @@
 		(dnp no)
 		(uuid "a11de4c3-e181-4dca-beff-4840f0565ebe")
 		(property "Reference" "R49"
-			(at 127 71.1199 0)
+			(at 132.08 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8928,7 +8927,7 @@
 			)
 		)
 		(property "Value" "220k"
-			(at 127 73.6599 0)
+			(at 132.08 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8939,7 +8938,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 131.318 72.39 90)
+			(at 127.762 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
