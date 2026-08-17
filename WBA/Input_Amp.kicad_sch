@@ -774,129 +774,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -2558,12 +2435,6 @@
 		(uuid "14fba0be-ab7d-422b-b295-4438f4b77bc1")
 	)
 	(junction
-		(at 115.57 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1779341b-c711-4c83-b18c-0f312ce642fd")
-	)
-	(junction
 		(at 67.31 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2634,12 +2505,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ff2d0ee-386e-420b-b797-113bf466de27")
-	)
-	(junction
-		(at 95.25 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a211715e-825d-4494-b7ca-456d98cacd40")
 	)
 	(junction
 		(at 129.54 142.24)
@@ -2961,16 +2826,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 55.88) (xy 95.25 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ef6d9dc-bf38-48ad-a68a-ea6e2c922704")
-	)
-	(wire
-		(pts
 			(xy 45.72 78.74) (xy 80.01 78.74)
 		)
 		(stroke
@@ -3081,7 +2936,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 78.74) (xy 99.06 78.74)
+			(xy 90.17 78.74) (xy 99.06 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3118,16 +2973,6 @@
 			(type default)
 		)
 		(uuid "6849a2a5-94b8-4544-9bcb-90dfd1832b4c")
-	)
-	(wire
-		(pts
-			(xy 90.17 78.74) (xy 95.25 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ae4c837-0a28-48b2-823f-9c50addeb85e")
 	)
 	(wire
 		(pts
@@ -3318,16 +3163,6 @@
 			(type default)
 		)
 		(uuid "a2396612-9e7b-4fd8-80e6-8359e2ab867d")
-	)
-	(wire
-		(pts
-			(xy 115.57 55.88) (xy 115.57 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4b1f888-a6b3-484a-a5c8-4da9e1bf64ff")
 	)
 	(wire
 		(pts
@@ -12042,161 +11877,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 95.25 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ef17a97b-00c8-4ba6-964a-c61d873ea832")
-		(property "Reference" "TP3"
-			(at 92.71 51.3079 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint1"
-			(at 92.71 53.8479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 100.33 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 95.25 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 95.25 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 95.25 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCpart" ""
-			(at 95.25 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.1" ""
-			(at 95.25 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 95.25 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S6.2" ""
-			(at 95.25 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 95.25 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7268c7a0-f99f-448a-bdc1-5f8cbfb2d077")
-		)
-		(instances
-			(project "WBA"
-				(path "/c77af8fc-224a-4ff3-a0d5-97932f48ce9d/a5c8f922-5982-414b-97b2-2371b3311d5c"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 130.81 111.76 180)
 		(unit 1)
@@ -12269,161 +11949,6 @@
 			(project "WBA"
 				(path "/c77af8fc-224a-4ff3-a0d5-97932f48ce9d/a5c8f922-5982-414b-97b2-2371b3311d5c"
 					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 115.57 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f88e760e-3751-4b68-bc77-34702e7f8165")
-		(property "Reference" "TP2"
-			(at 113.03 51.3079 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint0"
-			(at 113.03 53.8479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 120.65 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 115.57 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 115.57 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 115.57 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCpart" ""
-			(at 115.57 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.1" ""
-			(at 115.57 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 115.57 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S6.2" ""
-			(at 115.57 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 115.57 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ffc020a2-7103-46d0-b7d3-cca606a88cc1")
-		)
-		(instances
-			(project "WBA"
-				(path "/c77af8fc-224a-4ff3-a0d5-97932f48ce9d/a5c8f922-5982-414b-97b2-2371b3311d5c"
-					(reference "TP2")
 					(unit 1)
 				)
 			)

@@ -2231,7 +2231,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Filter:MAX7424xUA"
+		(symbol "Filter:MAX7414xUA"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2247,7 +2247,7 @@
 					)
 				)
 			)
-			(property "Value" "MAX7424xUA"
+			(property "Value" "MAX7414xUA"
 				(at 6.35 8.636 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2268,7 +2268,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf"
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7409-MAX7414.pdf"
 				(at 0 -27.178 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2279,7 +2279,7 @@
 					)
 				)
 			)
-			(property "Description" "5th-Order Active Low Pass Filter, 0.001 to 45kHz, Butterworth Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, MSOP-8"
+			(property "Description" "5th-Order Active Low Pass Filter, 0.001 to 15kHz, Butterworth Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, MSOP-8"
 				(at 0 -25.146 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2312,7 +2312,7 @@
 					)
 				)
 			)
-			(symbol "MAX7424xUA_1_1"
+			(symbol "MAX7414xUA_1_1"
 				(rectangle
 					(start -7.62 7.62)
 					(end 7.62 -10.16)
@@ -4812,6 +4812,12 @@
 		(uuid "258730ae-4fb5-4a88-af55-1c8a1b4f564a")
 	)
 	(junction
+		(at 304.8 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26114f06-b867-47dc-9345-2e2f409eabaa")
+	)
+	(junction
 		(at 44.45 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4822,6 +4828,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bd36077-d47a-4209-ad89-e55f843a4eb9")
+	)
+	(junction
+		(at 271.78 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e37c65c-89f4-4a62-98cd-8e3fc683b148")
 	)
 	(junction
 		(at 341.63 110.49)
@@ -4866,6 +4878,12 @@
 		(uuid "41236059-fa2b-41fd-89fc-34eea97fb89a")
 	)
 	(junction
+		(at 281.94 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4461db12-241a-4d53-a3f4-9627d0df0eb7")
+	)
+	(junction
 		(at 251.46 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4882,12 +4900,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5394f0c1-0071-4d91-9cbf-2659a0ee8317")
-	)
-	(junction
-		(at 304.8 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5eb348ae-bec9-4573-bbfe-f1b4a5ac09c4")
 	)
 	(junction
 		(at 313.69 66.04)
@@ -4980,12 +4992,6 @@
 		(uuid "9d542032-8e68-4917-a9e3-50ade66aaf2e")
 	)
 	(junction
-		(at 271.78 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6c9f1f8-77aa-4f8e-869b-54c9b40de209")
-	)
-	(junction
 		(at 44.45 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5002,6 +5008,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8dc4d56-f8f3-486b-ad4d-7999ee8f7cce")
+	)
+	(junction
+		(at 271.78 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be233b27-c980-4e50-ae64-c5d81cb79e9f")
 	)
 	(junction
 		(at 44.45 224.79)
@@ -5022,6 +5034,12 @@
 		(uuid "c0012ceb-bb2e-4427-a7d0-d88c853ec7b2")
 	)
 	(junction
+		(at 281.94 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca0bd3b2-5c19-40b8-8ea0-85be7a384b7b")
+	)
+	(junction
 		(at 297.18 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5032,12 +5050,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da52485d-7e8b-4f3e-8cf4-15fa18313837")
-	)
-	(junction
-		(at 271.78 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df4fc71c-5854-451c-966e-eaa3ba095710")
 	)
 	(junction
 		(at 36.83 176.53)
@@ -5062,18 +5074,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec74eb02-6108-4206-b39c-096d0546caa1")
-	)
-	(junction
-		(at 281.94 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eea78bd6-be4e-41df-8e3d-17a504ee4acc")
-	)
-	(junction
-		(at 281.94 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f89877c3-3a7c-4e6e-9c69-ce041c684d1f")
 	)
 	(junction
 		(at 44.45 207.01)
@@ -13984,6 +13984,117 @@
 		)
 	)
 	(symbol
+		(lib_id "Filter:MAX7414xUA")
+		(at 281.94 113.03 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b96bbb9-064a-4528-88ba-9e13e05679db")
+		(property "Reference" "U3"
+			(at 279.7967 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX7414xUA"
+			(at 279.7967 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
+			(at 281.94 136.144 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7409-MAX7414.pdf"
+			(at 281.94 140.208 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5th-Order Active Low Pass Filter, 0.001 to 15kHz, Butterworth Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, MSOP-8"
+			(at 281.94 138.176 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2988406"
+			(at 281.94 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "f958ffed-01ff-42b2-b866-9b12b56b09df")
+		)
+		(pin "3"
+			(uuid "36561269-507e-46a7-bd38-c502d36d2b0f")
+		)
+		(pin "6"
+			(uuid "d58e2c07-442b-4d93-9072-78f4d720c761")
+		)
+		(pin "2"
+			(uuid "fe1dab34-304d-477c-aeb3-8961e96437cc")
+		)
+		(pin "1"
+			(uuid "7b6bbf58-3e13-4869-b48a-b0f2dc83c2d8")
+		)
+		(pin "5"
+			(uuid "269a171c-8519-4543-9281-c837a58284cb")
+		)
+		(pin "7"
+			(uuid "662982c1-0756-4a94-8808-49832fbd0f10")
+		)
+		(pin "8"
+			(uuid "ce14ec90-cc82-4a89-9df8-9e0e1f4308f2")
+		)
+		(instances
+			(project "WBA"
+				(path "/c77af8fc-224a-4ff3-a0d5-97932f48ce9d"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 328.93 77.47 180)
 		(unit 1)
@@ -15059,194 +15170,6 @@
 			(project "WBA"
 				(path "/c77af8fc-224a-4ff3-a0d5-97932f48ce9d"
 					(reference "#PWR098")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Filter:MAX7424xUA")
-		(at 281.94 113.03 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "540c2985-abcf-491c-8f5f-bd8b8261caca")
-		(property "Reference" "U11"
-			(at 279.7967 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MAX7424EUA+T"
-			(at 279.7967 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 281.94 136.144 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf"
-			(at 281.94 140.208 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "5th-Order Active Low Pass Filter, 0.001 to 45kHz, Butterworth Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, MSOP-8"
-			(at 281.94 138.176 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 281.94 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 281.94 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C6798302"
-			(at 281.94 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCpart" ""
-			(at 281.94 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.1" ""
-			(at 281.94 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 281.94 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S6.2" ""
-			(at 281.94 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 281.94 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c8b231ee-3dae-4350-827b-8141c7dc421f")
-		)
-		(pin "2"
-			(uuid "fa817399-b854-44fb-81bf-8dd605fa7b3e")
-		)
-		(pin "3"
-			(uuid "e20939ac-3ab1-4c39-88d3-b39fc1edf2f4")
-		)
-		(pin "4"
-			(uuid "cea6b19d-6311-45a4-b11f-e94749fb95c9")
-		)
-		(pin "5"
-			(uuid "0c9d14f5-5174-4e95-85d2-0c40d02143ea")
-		)
-		(pin "7"
-			(uuid "2c51c59e-d26d-467e-9ec1-e02ef2f1dec7")
-		)
-		(pin "6"
-			(uuid "60b2cfde-9f63-4693-970c-916d27cdc93a")
-		)
-		(pin "8"
-			(uuid "dd4fc61a-0cc4-454e-a087-b693afe93346")
-		)
-		(instances
-			(project "WBA"
-				(path "/c77af8fc-224a-4ff3-a0d5-97932f48ce9d"
-					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -20228,6 +20151,117 @@
 		)
 	)
 	(symbol
+		(lib_id "Filter:MAX7414xUA")
+		(at 281.94 66.04 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8cabe6cc-1252-49b8-81dd-ebfbf468dcfa")
+		(property "Reference" "U4"
+			(at 279.7967 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX7414xUA"
+			(at 279.7967 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
+			(at 281.94 89.154 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7409-MAX7414.pdf"
+			(at 281.94 93.218 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5th-Order Active Low Pass Filter, 0.001 to 15kHz, Butterworth Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, MSOP-8"
+			(at 281.94 91.186 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2988406"
+			(at 281.94 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "79e0a2f8-f684-49aa-865f-b6506bb1336c")
+		)
+		(pin "5"
+			(uuid "df29cfa3-7e76-4dff-ba37-6049b4fa214b")
+		)
+		(pin "6"
+			(uuid "0c6d27c9-25e7-486a-95ec-146a1ba5e082")
+		)
+		(pin "2"
+			(uuid "814d66ea-9fcb-4203-b911-ed75643388d0")
+		)
+		(pin "3"
+			(uuid "9d5a7717-d97a-41d6-aefc-6ed54fa68ddc")
+		)
+		(pin "4"
+			(uuid "d6a2ebe4-4c54-440e-8fa6-3fef98fcc5e9")
+		)
+		(pin "1"
+			(uuid "bb740073-1934-4110-965c-e580903b4b5e")
+		)
+		(pin "7"
+			(uuid "6b0557c7-0c23-4475-9f1d-66dac528821d")
+		)
+		(instances
+			(project "WBA"
+				(path "/c77af8fc-224a-4ff3-a0d5-97932f48ce9d"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 265.43 78.74 0)
 		(unit 1)
@@ -24842,194 +24876,6 @@
 			(project "WBA"
 				(path "/c77af8fc-224a-4ff3-a0d5-97932f48ce9d"
 					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Filter:MAX7424xUA")
-		(at 281.94 66.04 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d37c7cd4-4309-4eb9-9b30-0e181d8a892d")
-		(property "Reference" "U3"
-			(at 279.7967 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MAX7424EUA+T"
-			(at 279.7967 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 281.94 89.154 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf"
-			(at 281.94 93.218 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "5th-Order Active Low Pass Filter, 0.001 to 45kHz, Butterworth Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, MSOP-8"
-			(at 281.94 91.186 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 281.94 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 281.94 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C6798302"
-			(at 281.94 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCpart" ""
-			(at 281.94 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.1" ""
-			(at 281.94 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 281.94 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S6.2" ""
-			(at 281.94 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 281.94 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6cb4458e-c031-460f-b895-7d11269d6299")
-		)
-		(pin "2"
-			(uuid "cd286662-48b9-459f-880a-02909dee5d48")
-		)
-		(pin "3"
-			(uuid "f9963e24-4ede-4323-91cd-1fb5199a360c")
-		)
-		(pin "4"
-			(uuid "8e7617e8-79fd-47a4-8330-879fabe4dd3d")
-		)
-		(pin "5"
-			(uuid "98d14de4-bde6-4498-b1ef-32b8e3750203")
-		)
-		(pin "7"
-			(uuid "b8699f1b-01d3-4961-b279-ebbd0674e1b3")
-		)
-		(pin "6"
-			(uuid "6b8d1f70-d47a-4815-a781-8152d3df66e3")
-		)
-		(pin "8"
-			(uuid "3f062aff-f097-43b2-8023-993fc969736b")
-		)
-		(instances
-			(project "WBA"
-				(path "/c77af8fc-224a-4ff3-a0d5-97932f48ce9d"
-					(reference "U3")
 					(unit 1)
 				)
 			)
